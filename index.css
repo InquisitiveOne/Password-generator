@@ -47,6 +47,13 @@ h1 {
     line-height: 24px; /* 150% */
 }
 
+#pw-length {
+    width: 100px;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 12px; 
+}
+
 button {
     /* style */
     border: none;
