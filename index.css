@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Karla:wght@800&display=swap');
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.password-generator-container {
+    background: #1F2937;
+    padding: 115px 52px;
+    width: 550px;
+    height: auto;
+}
+
+h1 {
+    color: var(--white, #FFF);
+    font-family: 'Karla', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 40px; /* 100% */
+    letter-spacing: -1px;
+    margin: 0 0 20px 0;
+}
+
+.h1-special {
+    color: #4ADF86;
+}
+
+.supporting-text, button {
+    color: var(--Medium-grey, #D5D4D8);
+    /* text-xl/leading-7/font-normal */
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 140% */
+    margin: 0 0 51px 0; 
+}
+
+#generate-pw-btn {
+    color: var(--white, #FFF);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+}
+
+button {
+    /* style */
+    border: none;
+    border-radius: 6px;
+    background: #10B981;
+    /* shadow/sm */
+    /* box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05); */
+    
+    /* layout */
+    display: inline-flex;
+    padding: 9px 17px 9px 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.horizontal-divider {
+    /* style */
+    background: #2F3E53;
+    height: 1px;
+}
+
+.password-section {
+    display: flex;
+}
+
+.password {
+    width: 211px;
+    height: 39px;
+    margin-top: 35px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #273549;
+    
+    /* text styling */
+    color: #55F991;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; 
+}
+
+.password:first-of-type {
+    margin-right: 24px;
+}
