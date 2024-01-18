@@ -101,3 +101,13 @@ button {
 .password:first-of-type {
     margin-right: 24px;
 }
+
+@media screen and (max-width: 500px) {
+    .password-section {
+        flex-direction: column;
+    }
+
+    .password {
+        width: 100%;
+    }
+}
